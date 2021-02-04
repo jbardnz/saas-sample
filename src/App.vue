@@ -1,17 +1,25 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div id="app" class="h-full">
+    <Nav />
+    <Account />
+    <Tabs />
+    <!-- <Timeline /> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Account from "./components/Account.vue";
+import Nav from './components/Nav.vue';
+import Tabs from './components/Tabs.vue';
+// import Timeline from './components/Timeline.vue';
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Account,
+    Nav,
+    Tabs,
+    // Timeline
   }
 };
 </script>
@@ -21,8 +29,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
 }
 </style>
