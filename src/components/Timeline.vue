@@ -70,6 +70,6 @@
 
 <script>
 export default {
-  name: 'Timeline'
-}
+  name: "Timeline"
+};
 </script>

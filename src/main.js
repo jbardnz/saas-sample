@@ -3,7 +3,7 @@ import App from "./App.vue";
 
 Vue.config.productionTip = false;
 
-import './assets/styles/index.css';
+import "./assets/styles/index.css";
 
 new Vue({
   render: h => h(App)
